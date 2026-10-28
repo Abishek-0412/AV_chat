@@ -1,0 +1,22 @@
+# Planning notes (local only)
+PLAN.md
+
+# Dart / Flutter
+.dart_tool/
+build/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec_overrides.yaml
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Android local / secrets
+local.properties
+*.jks
+*.keystore
+key.properties

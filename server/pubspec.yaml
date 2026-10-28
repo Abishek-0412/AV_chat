@@ -1,0 +1,20 @@
+name: av_relay
+description: AV_chat relay. Forwards encrypted envelopes between online users. Memory only.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  av_protocol:
+    path: ../packages/av_protocol
+  cryptography: ^2.9.0
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+  shelf_web_socket: ^3.0.0
+  web_socket_channel: ^3.0.3
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
